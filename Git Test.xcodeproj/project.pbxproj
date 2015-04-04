@@ -14,6 +14,7 @@
 		E8EB74FC1ACF5345007E0D1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8EB74FB1ACF5345007E0D1A /* Images.xcassets */; };
 		E8EB74FF1ACF5345007E0D1A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8EB74FD1ACF5345007E0D1A /* LaunchScreen.xib */; };
 		E8EB750B1ACF5346007E0D1A /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EB750A1ACF5346007E0D1A /* Git_TestTests.m */; };
+		E8EB75161ACFA991007E0D1A /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EB75151ACFA991007E0D1A /* TestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		E8EB75041ACF5346007E0D1A /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8EB75091ACF5346007E0D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8EB750A1ACF5346007E0D1A /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		E8EB75141ACFA991007E0D1A /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		E8EB75151ACFA991007E0D1A /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		E8EB74E21ACF5345007E0D1A = {
 			isa = PBXGroup;
 			children = (
+				E8EB75141ACFA991007E0D1A /* TestClass.h */,
+				E8EB75151ACFA991007E0D1A /* TestClass.m */,
 				E8EB74ED1ACF5345007E0D1A /* Git Test */,
 				E8EB75071ACF5346007E0D1A /* Git TestTests */,
 				E8EB74EC1ACF5345007E0D1A /* Products */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8EB75161ACFA991007E0D1A /* TestClass.m in Sources */,
 				E8EB74F71ACF5345007E0D1A /* ViewController.m in Sources */,
 				E8EB74F41ACF5345007E0D1A /* AppDelegate.m in Sources */,
 				E8EB74F11ACF5345007E0D1A /* main.m in Sources */,
